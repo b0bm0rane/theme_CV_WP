@@ -1,0 +1,86 @@
+/* requis, qui va contenir nos styles mais aussi déclarer notre thème à WordPress */
+
+/*
+Theme Name: Mon Theme CV
+Theme URI: 
+Author: Kévin ROUSSOTTE
+Author URI: 
+Description: Mon premier thème !
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+.admin-bar .menu {
+	top: 32px; /* on prend en compte le décalage */
+}
+
+body{
+    background-color: grey;
+}
+
+#logo{
+    width: 100px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: solid black 3px;
+}
+
+header{
+    background-color: blanchedalmond;
+    height: 200px;
+}
+
+.test-menu{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    height: 40px;
+    background-color: darkslategrey;
+}
+
+.test-menu a {
+    padding: 10px;
+    color: orange;
+}
+
+.sub-menu {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    padding: 0;
+    list-style-type: none;
+}
+
+.test-menu > li:hover .sub-menu {
+    display: flex;
+}
+
+
+.sub-menu a {
+    /* background-color: grey; */
+    display: inline-block;
+    padding: 10px;
+}
+
+footer{
+    background-color: blanchedalmond;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
+.name-job{
+    margin-left: 25px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#div-tete{
+    width: 600px;
+}
