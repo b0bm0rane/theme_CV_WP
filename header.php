@@ -16,7 +16,7 @@
 
 <header class="header">
     <a href="<?php echo home_url( '/' ); ?>">
-      <img id="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_CV.png" alt="Logo">
+      <img id="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_CV_v2.png" alt="Logo">
     </a> 
     <div id="div-tete">
         <span class="name-job"><?=bloginfo('name') ;?></span>

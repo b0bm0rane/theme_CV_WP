@@ -1,7 +1,7 @@
 /* requis, qui va contenir nos styles mais aussi déclarer notre thème à WordPress */
 
 /*
-Theme Name: Mon Theme CV
+Theme Name: Mon CV
 Theme URI: 
 Author: Kévin ROUSSOTTE
 Author URI: 
@@ -20,7 +20,8 @@ Version: 1.0
 }
 
 body{
-    background-color: grey;
+    background-color: rgb(201, 201, 201);
+    margin: 0;
 }
 
 #logo{
@@ -32,8 +33,8 @@ body{
 }
 
 header{
-    background-color: blanchedalmond;
-    height: 200px;
+    background-color: rgb(70, 136, 136);
+    height: 250px;
 }
 
 .test-menu{
@@ -41,12 +42,12 @@ header{
     list-style-type: none;
     padding: 0;
     height: 40px;
-    background-color: darkslategrey;
 }
 
 .test-menu a {
     padding: 10px;
     color: orange;
+    font-weight: bold;
 }
 
 .sub-menu {
@@ -69,18 +70,42 @@ header{
 }
 
 footer{
-    background-color: blanchedalmond;
+    background-color: rgb(70, 136, 136);
     height: 50px;
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 
 .name-job{
     margin-left: 25px;
+    color: orange;
     font-size: xx-large;
     font-weight: bold;
+    text-shadow: 0 0 1px black;
 }
 
 #div-tete{
     width: 600px;
 }
+
+.post{
+    background-color: rgb(25, 202, 202);
+    width: 500px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
