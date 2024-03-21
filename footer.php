@@ -8,6 +8,7 @@
                 'menu_class' => 'test-menu'
             ]);
         ?>
+    <img id="logo" src="<?php echo get_template_directory_uri(); ?>/img/photo_CV.JPG" alt="Photo">
 </footer>
 
 </body>

@@ -1,6 +1,6 @@
-<!-- dans lequel on va pouvoir activer et ajouter des fonctionnalités -->
+<?php
 
-<?php 
+// dans lequel on va pouvoir activer et ajouter des fonctionnalités -->
 
 function registerMyMenu() {
     register_nav_menu('header', 'Mon menu principal');
