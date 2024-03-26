@@ -10,19 +10,39 @@ Requires at least: WordPress 5.0
 Version: 1.0
 */
 
-.menu {
-    position: fixed;
-    top: 0px;
-}
 
-.admin-bar .menu {
-	top: 32px; /* on prend en compte le décalage */
-}
+
+/* BODY */
 
 body{
     background-color: rgb(201, 201, 201);
     margin: 0;
 }
+
+
+
+/* HEADER */
+
+header{
+    background-color: rgb(70, 136, 136);
+    height: 250px;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(70, 136, 136);
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* MÉDIAS */
 
 #logo{
     width: 100px;
@@ -32,9 +52,17 @@ body{
     border: solid black 3px;
 }
 
-header{
-    background-color: rgb(70, 136, 136);
-    height: 250px;
+
+
+/* MENUS */
+
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+.admin-bar .menu {
+	top: 32px; /* on prend en compte le décalage */
 }
 
 .test-menu{
@@ -62,20 +90,46 @@ header{
     display: flex;
 }
 
-
 .sub-menu a {
-    /* background-color: grey; */
-    display: inline-block;
+    background-color: rgb(70, 136, 136);
+    display: flex;
+    /* display: inline-block; */
+    width: 100px;
     padding: 10px;
 }
 
-footer{
+
+
+/* POSTS */
+
+.post{
     background-color: rgb(70, 136, 136);
-    height: 50px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    color: orange;
+    width: 500px;
+    padding: 20px;
+    margin-left: 50px;
+    text-shadow: 0 0 1px black;
+    border: solid 2px orange;
 }
+
+.post__link{
+    color: orange;
+    text-shadow: 0 0 1px black;
+}
+
+.post-categories{
+    list-style: none;
+}
+
+.post-categories a{
+    color: orange;
+    text-shadow: 0 0 1px black;
+    /* text-decoration: none; */
+}
+
+
+
+/* AUTRES */
 
 .name-job{
     margin-left: 25px;
@@ -88,24 +142,3 @@ footer{
 #div-tete{
     width: 600px;
 }
-
-.post{
-    background-color: rgb(25, 202, 202);
-    width: 500px;
-    padding: 20px;
-    margin-left: 50px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
