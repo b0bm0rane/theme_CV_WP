@@ -21,15 +21,6 @@ body{
 
 
 
-/* HEADER */
-
-header{
-    background-color: rgb(70, 136, 136);
-    height: 250px;
-}
-
-
-
 /* FOOTER */
 
 footer{
@@ -38,6 +29,15 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+
+
+/* HEADER */
+
+header{
+    background-color: rgb(70, 136, 136);
+    height: 250px;
 }
 
 
