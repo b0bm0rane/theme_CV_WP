@@ -26,9 +26,13 @@ body{
 footer{
     background-color: rgb(70, 136, 136);
     height: 50px;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
+}
+
+.page-id-15 footer {
+    position: relative;
 }
 
 
@@ -42,6 +46,16 @@ header{
 
 
 
+/* MAIN */
+
+main{
+    min-height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
 /* MÉDIAS */
 
 #logo{
@@ -50,6 +64,12 @@ header{
     margin-top: 20px;
     margin-left: 20px;
     border: solid black 3px;
+}
+
+.wp-image-198{ /* MAP */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -142,3 +162,8 @@ header{
 #div-tete{
     width: 600px;
 }
+
+/* 
+.wp-image-107{
+    position: absolute;
+} */
